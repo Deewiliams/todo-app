@@ -86,3 +86,15 @@ body{
   font-weight: 400;
 }
 
+.task button{
+  background-color: #0a2ea4;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+}
+
+
