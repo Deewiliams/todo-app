@@ -5,8 +5,6 @@ document.querySelector("#add").onclick = function () {
     document.querySelector("#tasks").innerHTML += `
             <div class="task">
             <table>
-            <tr>
-            </tr>
             <tr id="taskname">
               <td>${document.querySelector("#newtask input").value}</td>
             </tr>
@@ -22,6 +20,7 @@ document.querySelector("#add").onclick = function () {
       current_tasks[i].onclick = function () {
         this.parentNode.remove();
       };
+      document.getElementById("input").value = "";
     }
   }
 };
