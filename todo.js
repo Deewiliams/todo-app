@@ -6,14 +6,13 @@ document.querySelector("#add").onclick = function () {
             <div class="task">
             <table>
             <tr>
-              <th>To do list</th>
             </tr>
             <tr id="taskname">
               <td>${document.querySelector("#newtask input").value}</td>
             </tr>
           </table>
                 <button class="delete">
-                    <i class="far fa-trash-alt">x</i>
+                X
                 </button>
             </div>
         `;
